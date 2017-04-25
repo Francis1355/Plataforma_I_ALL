@@ -1,0 +1,22 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+var aArreCade = ["Hola", "Mundo", "Cruel"]
+print(aArreCade[0])
+print(aArreCade[1])
+print(aArreCade[2])
+
+var aArreNume = Array(repeating: 10, count: 5)
+print(aArreNume[3])
+
+for iNum in aArreNume {
+	print(iNum)
+}
+
+for iNum2 in 0...4 {
+	print(aArreNume[iNum2])
+}
+
+for iNum2 in 0..<aArreNume.count {
+	print(aArreNume[iNum2])
+}

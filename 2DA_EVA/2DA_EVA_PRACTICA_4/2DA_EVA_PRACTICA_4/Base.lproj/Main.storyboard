@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_DA_EVA_PRACTICA_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVf-7j-aGF">
+                                <rect key="frame" x="20" y="39" width="560" height="216"/>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="rMG-kB-bqg"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="yNx-S2-ceq"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5FR-wX-V5f">
+                                <rect key="frame" x="130" y="281" width="341" height="210"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="6Zp-FL-UMv"/>
+                                    <constraint firstAttribute="width" constant="341" id="isL-fz-JcP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WVf-7j-aGF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="4gi-eJ-BvA"/>
+                            <constraint firstItem="5FR-wX-V5f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ed9-mv-To7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="WVf-7j-aGF" secondAttribute="leading" id="N1J-cA-5xX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WVf-7j-aGF" secondAttribute="trailing" id="eAc-Mx-XgU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5FR-wX-V5f" secondAttribute="bottom" constant="109" id="eN0-OE-wR7"/>
+                            <constraint firstItem="5FR-wX-V5f" firstAttribute="top" secondItem="WVf-7j-aGF" secondAttribute="bottom" constant="26" id="sId-PF-wFb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgCar" destination="5FR-wX-V5f" id="IPm-1p-9gi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="244"/>
+        </scene>
+    </scenes>
+</document>

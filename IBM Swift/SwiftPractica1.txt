@@ -1,0 +1,28 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+var sCade: String
+sCade = "Hola Mundo!"
+
+var sCade2 = "Hola 2 Mundo 2 !"
+
+let miConstante: Int = 5
+
+var sCade3, sCade4, sCade5: String
+
+print(sCade)
+print(sCade2)
+print(miConstante)
+print("El valor de mi constante es = \(miConstante)")
+
+//TIPOS DE DATOS
+var iVal = 100
+var dValDob = 5.5
+print("La suma es = \(Double(iVal)+dValDob)")
+
+let sNombre = "Francisco Castillo"
+print("Mi nombre es \(sNombre)")
+
+var sConc = "Hola"
+sConc = sConc + " " + "Mundo!"
+print(sConc)

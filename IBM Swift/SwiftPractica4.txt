@@ -1,0 +1,33 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+func mandarMensaje(){
+	print("Hola pruebas")
+}
+
+mandarMensaje()
+
+func devolverValor() -> Int{
+	return 10
+}
+
+let iVal = devolverValor()
+print(iVal)
+
+func mandarMensaje2(mensaje:String) {
+	print(mensaje)
+}
+
+mandarMensaje2(mensaje: "Hola pruebas 2")
+
+func mandarMensaje3(_ mensaje:String) {
+	print(mensaje)
+}
+
+mandarMensaje3("Hola pruebas 3")
+
+func mandarMensaje4(introduceTuMensaje mensaje:String) {
+	print(mensaje)
+}
+
+mandarMensaje4(introduceTuMensaje: "Hola pruebas 4")

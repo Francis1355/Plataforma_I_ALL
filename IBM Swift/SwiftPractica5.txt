@@ -1,0 +1,30 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+class MiClase{
+	init() {
+		print("CONSTRUCTOR DE ARGUMENTOS")
+	}
+	
+	func mandarMensaje(_ mensaje:String) {
+		print(mensaje)
+	}
+}
+
+let mcObj=MiClase()
+mcObj.mandarMensaje("Pruebas de función dentro de clase")
+
+class MiOtraClase: MiClase{
+	
+}
+
+let mocObjeto = MiOtraClase()
+mocObjeto.mandarMensaje("Pruebas de clase hereda de otra clase para mandar mensaje")
+
+class MiOtrax2Clase: MiClase{
+	override init(){
+		print("Segundo INIT")
+	}
+}
+
+let otroObjeto=MiOtrax2Clase()

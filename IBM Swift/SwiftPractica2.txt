@@ -1,0 +1,18 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+//TIPOS WRAPPED(?) - UNWRAPPED(!)
+
+var sCade: String? //No se puede usar mientras tenga el simbolo de wrap
+//El ? es permitir a una variable que pueda hacer uso de nil
+sCade = "HOLA"
+sCade = nil
+print(sCade!)
+
+//var iVal: Int
+//iVal = nil
+
+var sCade2: String!
+sCade2 = nil
+sCade2 = "Hola"
+print(sCade2)

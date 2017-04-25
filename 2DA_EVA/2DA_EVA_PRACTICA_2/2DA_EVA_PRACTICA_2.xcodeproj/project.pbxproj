@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F73509371EAEF59A0026D141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73509361EAEF59A0026D141 /* AppDelegate.swift */; };
+		F73509391EAEF59A0026D141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73509381EAEF59A0026D141 /* ViewController.swift */; };
+		F735093C1EAEF59A0026D141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735093A1EAEF59A0026D141 /* Main.storyboard */; };
+		F735093E1EAEF59A0026D141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F735093D1EAEF59A0026D141 /* Assets.xcassets */; };
+		F73509411EAEF59A0026D141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735093F1EAEF59A0026D141 /* LaunchScreen.storyboard */; };
+		F735094C1EAEF59A0026D141 /* _DA_EVA_PRACTICA_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735094B1EAEF59A0026D141 /* _DA_EVA_PRACTICA_2Tests.swift */; };
+		F73509571EAEF59A0026D141 /* _DA_EVA_PRACTICA_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73509561EAEF59A0026D141 /* _DA_EVA_PRACTICA_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F73509481EAEF59A0026D141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F735092B1EAEF59A0026D141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73509321EAEF59A0026D141;
+			remoteInfo = 2DA_EVA_PRACTICA_2;
+		};
+		F73509531EAEF59A0026D141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F735092B1EAEF59A0026D141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73509321EAEF59A0026D141;
+			remoteInfo = 2DA_EVA_PRACTICA_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F73509331EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2DA_EVA_PRACTICA_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73509361EAEF59A0026D141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F73509381EAEF59A0026D141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F735093B1EAEF59A0026D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F735093D1EAEF59A0026D141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F73509401EAEF59A0026D141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F73509421EAEF59A0026D141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73509471EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2DA_EVA_PRACTICA_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F735094B1EAEF59A0026D141 /* _DA_EVA_PRACTICA_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DA_EVA_PRACTICA_2Tests.swift; sourceTree = "<group>"; };
+		F735094D1EAEF59A0026D141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73509521EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2DA_EVA_PRACTICA_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73509561EAEF59A0026D141 /* _DA_EVA_PRACTICA_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DA_EVA_PRACTICA_2UITests.swift; sourceTree = "<group>"; };
+		F73509581EAEF59A0026D141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73509301EAEF59A0026D141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73509441EAEF59A0026D141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735094F1EAEF59A0026D141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F735092A1EAEF59A0026D141 = {
+			isa = PBXGroup;
+			children = (
+				F73509351EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */,
+				F735094A1EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests */,
+				F73509551EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests */,
+				F73509341EAEF59A0026D141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73509341EAEF59A0026D141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73509331EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2.app */,
+				F73509471EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests.xctest */,
+				F73509521EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73509351EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */ = {
+			isa = PBXGroup;
+			children = (
+				F73509361EAEF59A0026D141 /* AppDelegate.swift */,
+				F73509381EAEF59A0026D141 /* ViewController.swift */,
+				F735093A1EAEF59A0026D141 /* Main.storyboard */,
+				F735093D1EAEF59A0026D141 /* Assets.xcassets */,
+				F735093F1EAEF59A0026D141 /* LaunchScreen.storyboard */,
+				F73509421EAEF59A0026D141 /* Info.plist */,
+			);
+			path = 2DA_EVA_PRACTICA_2;
+			sourceTree = "<group>";
+		};
+		F735094A1EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F735094B1EAEF59A0026D141 /* _DA_EVA_PRACTICA_2Tests.swift */,
+				F735094D1EAEF59A0026D141 /* Info.plist */,
+			);
+			path = 2DA_EVA_PRACTICA_2Tests;
+			sourceTree = "<group>";
+		};
+		F73509551EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F73509561EAEF59A0026D141 /* _DA_EVA_PRACTICA_2UITests.swift */,
+				F73509581EAEF59A0026D141 /* Info.plist */,
+			);
+			path = 2DA_EVA_PRACTICA_2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73509321EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F735095B1EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2" */;
+			buildPhases = (
+				F735092F1EAEF59A0026D141 /* Sources */,
+				F73509301EAEF59A0026D141 /* Frameworks */,
+				F73509311EAEF59A0026D141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2DA_EVA_PRACTICA_2;
+			productName = 2DA_EVA_PRACTICA_2;
+			productReference = F73509331EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73509461EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F735095E1EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2Tests" */;
+			buildPhases = (
+				F73509431EAEF59A0026D141 /* Sources */,
+				F73509441EAEF59A0026D141 /* Frameworks */,
+				F73509451EAEF59A0026D141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73509491EAEF59A0026D141 /* PBXTargetDependency */,
+			);
+			name = 2DA_EVA_PRACTICA_2Tests;
+			productName = 2DA_EVA_PRACTICA_2Tests;
+			productReference = F73509471EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F73509511EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73509611EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2UITests" */;
+			buildPhases = (
+				F735094E1EAEF59A0026D141 /* Sources */,
+				F735094F1EAEF59A0026D141 /* Frameworks */,
+				F73509501EAEF59A0026D141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73509541EAEF59A0026D141 /* PBXTargetDependency */,
+			);
+			name = 2DA_EVA_PRACTICA_2UITests;
+			productName = 2DA_EVA_PRACTICA_2UITests;
+			productReference = F73509521EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F735092B1EAEF59A0026D141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Francisco Castillo";
+				TargetAttributes = {
+					F73509321EAEF59A0026D141 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F73509461EAEF59A0026D141 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F73509321EAEF59A0026D141;
+					};
+					F73509511EAEF59A0026D141 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F73509321EAEF59A0026D141;
+					};
+				};
+			};
+			buildConfigurationList = F735092E1EAEF59A0026D141 /* Build configuration list for PBXProject "2DA_EVA_PRACTICA_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F735092A1EAEF59A0026D141;
+			productRefGroup = F73509341EAEF59A0026D141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73509321EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */,
+				F73509461EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2Tests */,
+				F73509511EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73509311EAEF59A0026D141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73509411EAEF59A0026D141 /* LaunchScreen.storyboard in Resources */,
+				F735093E1EAEF59A0026D141 /* Assets.xcassets in Resources */,
+				F735093C1EAEF59A0026D141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73509451EAEF59A0026D141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73509501EAEF59A0026D141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F735092F1EAEF59A0026D141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73509391EAEF59A0026D141 /* ViewController.swift in Sources */,
+				F73509371EAEF59A0026D141 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73509431EAEF59A0026D141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F735094C1EAEF59A0026D141 /* _DA_EVA_PRACTICA_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735094E1EAEF59A0026D141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73509571EAEF59A0026D141 /* _DA_EVA_PRACTICA_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F73509491EAEF59A0026D141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73509321EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */;
+			targetProxy = F73509481EAEF59A0026D141 /* PBXContainerItemProxy */;
+		};
+		F73509541EAEF59A0026D141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73509321EAEF59A0026D141 /* 2DA_EVA_PRACTICA_2 */;
+			targetProxy = F73509531EAEF59A0026D141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F735093A1EAEF59A0026D141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F735093B1EAEF59A0026D141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F735093F1EAEF59A0026D141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73509401EAEF59A0026D141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73509591EAEF59A0026D141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F735095A1EAEF59A0026D141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F735095C1EAEF59A0026D141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F735095D1EAEF59A0026D141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F735095F1EAEF59A0026D141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2DA_EVA_PRACTICA_2.app/2DA_EVA_PRACTICA_2";
+			};
+			name = Debug;
+		};
+		F73509601EAEF59A0026D141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2DA_EVA_PRACTICA_2.app/2DA_EVA_PRACTICA_2";
+			};
+			name = Release;
+		};
+		F73509621EAEF59A0026D141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2DA_EVA_PRACTICA_2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F73509631EAEF59A0026D141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2DA_EVA_PRACTICA_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.-DA-EVA-PRACTICA-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2DA_EVA_PRACTICA_2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F735092E1EAEF59A0026D141 /* Build configuration list for PBXProject "2DA_EVA_PRACTICA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73509591EAEF59A0026D141 /* Debug */,
+				F735095A1EAEF59A0026D141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F735095B1EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735095C1EAEF59A0026D141 /* Debug */,
+				F735095D1EAEF59A0026D141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F735095E1EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735095F1EAEF59A0026D141 /* Debug */,
+				F73509601EAEF59A0026D141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F73509611EAEF59A0026D141 /* Build configuration list for PBXNativeTarget "2DA_EVA_PRACTICA_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73509621EAEF59A0026D141 /* Debug */,
+				F73509631EAEF59A0026D141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F735092B1EAEF59A0026D141 /* Project object */;
+}

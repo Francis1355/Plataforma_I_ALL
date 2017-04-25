@@ -1,0 +1,30 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+//PROTOCOL -> INTERFACES
+protocol hacerAlgo {
+	func mandarMensaje()
+}
+
+class ImplementaProtocolo: hacerAlgo{
+	init(){
+		print("SIN ARGUMENTOS")
+	}
+	
+	init(mensaje: String){
+		print(mensaje)
+	}
+	
+	init(mensaje: String, veces: Int){
+		for _ in 0...veces{
+			print(mensaje)
+		}
+	}
+	
+	func mandarMensaje(){
+		print("Pruebas de protocolo")
+	}
+}
+
+let ipObj=ImplementaProtocolo(mensaje: "Hola", veces: 5)
+ipObj.mandarMensaje()
